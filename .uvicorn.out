@@ -1,0 +1,85 @@
+INFO:     Will watch for changes in these directories: ['/workspaces/CICD2_Lab7']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [14678] using StatReload
+INFO:     Started server process [14697]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     193.1.57.1:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app/main_topic.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14697]
+INFO:     Started server process [17307]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/order_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17307]
+INFO:     Started server process [18970]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18970]
+INFO:     Started server process [19280]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19280]
+INFO:     Started server process [27339]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27339]
+INFO:     Started server process [27529]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27529]
+INFO:     Started server process [27590]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27590]
+INFO:     Started server process [30031]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30031]
+INFO:     Started server process [34326]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment2.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [34326]
+INFO:     Started server process [34362]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
